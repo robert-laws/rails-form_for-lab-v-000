@@ -218,3 +218,6 @@
   [1m[35m (0.0ms)[0m  begin transaction
 Started GET "/school_classes/new" for 127.0.0.1 at 2018-01-07 09:55:20 +0000
 Processing by SchoolClassesController#new as HTML
+  Rendered school_classes/new.html.erb within layouts/application (13.8ms)
+Completed 500 Internal Server Error in 41ms (ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
